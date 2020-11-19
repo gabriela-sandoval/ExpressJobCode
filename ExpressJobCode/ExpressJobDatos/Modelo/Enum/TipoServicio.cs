@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExpressJobDatos.Modelo
+namespace ExpressJobDatos.Modelo.Enum
 {
     public enum TipoServicio
     {   

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExpressJobDatos.Modelo.Enum;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,10 @@ namespace ExpressJobDatos.Modelo
         public string Descripción { get; set; }
 
         public string TelefonoFijo { get; set; }
+
+        public TipoServicio TipoServicio { get; set; }
+
+        public Municipio Municipio { get; set; }
 
 
 
